@@ -33,6 +33,10 @@ var server = net.createServer(function(conn){
     });
     conn.on('close',function(){
         count--;
+        delete user[nickname];
+        for(var i in user){
+                user[i].write( nickname + '  left the room!\r\n');
+            }
     });
     console.log('new connection!');
 });
