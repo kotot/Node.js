@@ -1,0 +1,7 @@
+
+{
+    "name": "http-request",
+    "version": "0.0.1",
+    "description":"http request",
+	"dependencies": "cheerio": "0.16.0"   
+}
