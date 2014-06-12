@@ -1,0 +1,16 @@
+<% include header.html %>
+<div class="container">
+
+    <form class="form-signin" role="form" method="post">
+        <%- message %>
+        <h2 class="form-signin-heading">来登录</h2>
+        <input type="text" class="form-control" placeholder="Email address" required="" autofocus="" name="username">
+        <input type="password" class="form-control" placeholder="Password" required="" name="password">
+        <label class="checkbox">
+            <input type="checkbox" value="remember-me"> 记住我
+        </label>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">走起</button>
+    </form>
+
+</div>
+<% include footer.html %>
